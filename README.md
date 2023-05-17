@@ -34,10 +34,11 @@ gwrc
 The CLI will ask you how to connect to your repository, which workflows to
 select and which runs to delete.
 
-You will need a [personal access token](https://github.com/settings/tokens) to
-establish a connection.
+You need a [personal access token](https://github.com/settings/tokens) and write
+access to the repository. And if the repository is not public, the token needs
+the `repo` scope.
 
-It also supports GitHub Enterprise.
+The CLI also supports GitHub Enterprise.
 
 ## License and Author
 
