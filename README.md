@@ -1,5 +1,6 @@
 # 🧹 GitHub Workflow Runs Cleaner
 
+[![npm Package Version](https://img.shields.io/npm/v/github-workflow-runs-cleaner?)](https://www.npmjs.com/package/github-workflow-runs-cleaner)
 [![License MIT](https://img.shields.io/badge/license-MIT-cccccc)](http://simbo.mit-license.org/)
 [![GitHub Repo](https://img.shields.io/badge/repo-public-87ceeb)](https://github.com/simbo/github-workflow-runs-cleaner)
 ![Native Typescript Support](https://img.shields.io/badge/types-Typescript-0c7dbe)
