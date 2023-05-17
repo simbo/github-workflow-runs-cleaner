@@ -35,7 +35,15 @@ try {
   const { apiURL, token, owner, repo, save } = await inquirer.prompt(
     [
       {
-        when: connectionData.apiURL && connectionData.token && connectionData.owner && connectionData.repo,
+        when:
+          typeof connectionData.apiURL === 'string' &&
+          connectionData.apiURL.length > 0 &&
+          typeof connectionData.token === 'string' &&
+          connectionData.token.length > 0 &&
+          typeof connectionData.owner === 'string' &&
+          connectionData.owner.length > 0 &&
+          typeof connectionData.repo === 'string' &&
+          connectionData.repo.length > 0,
         type: 'confirm',
         name: 'ask',
         message: `Saved connection data found for "${connectionData.owner}/${connectionData.repo}". Continue with this data?`,
