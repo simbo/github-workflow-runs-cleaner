@@ -1,7 +1,7 @@
 {
   "name": "github-workflow-runs-cleaner",
   "title": "GitHub Workflow Runs Cleaner",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "A command-line interface to bulk delete workflow runs of GitHub actions.",
   "author": "Simon Lepel <simbo@simbo.de> (https://simbo.de/)",
   "keywords": [
@@ -21,7 +21,6 @@
     "type": "git",
     "url": "git+https://github.com/simbo/github-workflow-runs-cleaner.git"
   },
-  "private": true,
   "engines": {
     "node": ">=16"
   },
