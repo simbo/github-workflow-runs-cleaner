@@ -34,8 +34,8 @@ jobs:
       # - name: 👨‍🔬 Run Tests
       #   run: npm run test
 
-      - name: 💯 Report Coverage to Coveralls
-        uses: coverallsapp/github-action@v2
+      # - name: 💯 Report Coverage to Coveralls
+      #   uses: coverallsapp/github-action@v2
 
       - name: 👷‍♂️ Build Library
         run: npm run build
